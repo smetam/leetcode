@@ -1,5 +1,4 @@
-# leetcode
-LeetCode Problems
+# [LeetCode](https://leetcode.com/problemset/all/)
 
 
 # Topics
