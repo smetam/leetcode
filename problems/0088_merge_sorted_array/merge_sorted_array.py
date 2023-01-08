@@ -12,8 +12,7 @@ class Solution:
             if idx1 < 0:
                 for i in range(idx2+1):
                     nums1[i] = nums2[i]
-                idx2 = -1
-                continue
+                return nums1
         
             n1 = nums1[idx1]
             n2 = nums2[idx2]
