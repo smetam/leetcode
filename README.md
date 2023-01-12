@@ -1,5 +1,12 @@
 # [LeetCode](https://leetcode.com/problemset/all/)
 
+## To install helpers for leetcode problems:
+```bash
+pip install -e src
+```
+
+### To try again:
+0167
 
 # Topics
 ## Array

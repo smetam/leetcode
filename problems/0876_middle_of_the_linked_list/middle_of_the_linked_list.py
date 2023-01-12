@@ -1,5 +1,5 @@
 from typing import Optional
-from ..helpers.listnode import ListNode
+from helpers.listnode import ListNode
 
 
 class Solution:
