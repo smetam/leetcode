@@ -21,7 +21,4 @@ def array_to_linked_list(arr: list) -> ListNode:
 def test_solution(arr, expected):
     node = array_to_linked_list(arr)
     expected = array_to_linked_list(expected)
-    print(node)
-    print(expected)
-    print(Solution().middleNode(node))
     assert Solution().middleNode(node) == expected
