@@ -35,7 +35,7 @@ if __name__ == '__main__':
     else:
         path.mkdir(exist_ok=True)
         with open(path / f'{problem_name}.py', 'w') as f:
-            f.write("from typing import List\n\n\n")
+            f.write("from typing import List, Optional\n\n\n")
         
         with open(path / f'test_{problem_name}.py', 'w') as f:
             f.write(TEST_TEMPLATE.format(name=problem_name))
