@@ -23,7 +23,6 @@ class Solution:
         fill_pixels = [(sr, sc)]
         while len(fill_pixels) > 0:
             row, col = fill_pixels.pop()
-            print(row, col)
             image[row][col] = color
             for r, c in ((row-1, col), (row+1, col), (row, col-1), (row, col+1)):
                 if is_within_limits_and_color_matches(r, c):
