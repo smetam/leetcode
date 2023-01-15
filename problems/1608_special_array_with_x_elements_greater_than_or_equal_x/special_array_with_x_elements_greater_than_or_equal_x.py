@@ -14,7 +14,6 @@ class Solution:
                 left = mid + 1
         
         n_elements_to_right = len(nums) - right - 1
-        print(nums, right, n_elements_to_right)
         if n_elements_to_right == 0 or n_elements_to_right > nums[right + 1]:
             return -1
         return n_elements_to_right
