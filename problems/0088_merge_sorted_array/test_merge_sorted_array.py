@@ -8,4 +8,5 @@ from merge_sorted_array import Solution
     ([2,0], 1, [1], 1, [1, 2]),
 ])
 def test_solution(nums1, m, nums2, n, expected):
-    assert Solution().merge(nums1, m, nums2, n) == expected
+    Solution().merge(nums1, m, nums2, n)
+    assert nums1 == expected

@@ -23,6 +23,3 @@ class Solution:
                 nums1[idx] = n1
                 idx1 -= 1
             idx -= 1
-
-        # Uncomment this to run tests
-        # return nums1
