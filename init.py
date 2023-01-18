@@ -25,7 +25,11 @@ if __name__ == '__main__':
         .replace(' ', '_')
         .replace('-', '_')
         .replace("'", '')
+        .replace("(", '_')
+        .replace(")", '')
     )
+    if problem_name[0].isnumeric():
+        problem_name = 'the_' + problem_name
     # problem_name = ''.join(c if c.isalnum() else '_' for c in problem_name)
     problem = f'{problem_id}_{problem_name}'
     
