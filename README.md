@@ -6,7 +6,13 @@ pip install -e src
 ```
 
 ### To try again:
+0139
+0141
 0167
+0309
+1539
+1608
+
 
 # Topics
 ## Array
