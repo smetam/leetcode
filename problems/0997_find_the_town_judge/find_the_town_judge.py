@@ -10,9 +10,6 @@ class Solution:
             judge_candidate.discard(left)
             trusted_by[right] += 1
 
-        print(judge_candidate)
-        print(trusted_by)
-
         if len(judge_candidate) != 1:
             return -1
 
